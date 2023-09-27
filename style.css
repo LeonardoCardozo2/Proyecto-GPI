@@ -20,9 +20,22 @@ h2{
 	margin: 0 0 10px 30px;
 	font-size: 10mm;
 }
+.subtitulo{
+	color: green;
+	margin: 50px 0 15px 40px;
+	font-size: 9mm;
+}
 .cont-texto p{
 	margin-left: 30px;
 	font-size: 6mm;
+}
+.linea{
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 70px;
+	border: solid blue 4px;
+	border-radius: 3px;
+	width: 80%;
 }
 .cont-ej{
 	display: flex;
@@ -36,4 +49,7 @@ h2{
 li{
 	font-size: 6mm;
 	margin: 10px 20px;
+}
+.cont-ej p{
+	font-size: 6mm;
 }
