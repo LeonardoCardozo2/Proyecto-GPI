@@ -8,7 +8,7 @@ body{
 h1{
 	text-align: center;
 	background: rgb(21, 91, 190);
-	padding: 15px;
+	padding: 25px;
 	color: #fff;
 	border-radius: 0 0 20px 20px;
 }
@@ -20,15 +20,17 @@ h2{
 	margin: 0 0 10px 30px;
 	font-size: 10mm;
 }
+.cont-texto p{
+	margin-left: 30px;
+	font-size: 6mm;
+}
+
 .subtitulo{
 	color: green;
 	margin: 50px 0 15px 40px;
 	font-size: 9mm;
 }
-.cont-texto p{
-	margin-left: 30px;
-	font-size: 6mm;
-}
+
 .linea{
 	margin: auto;
 	margin-top: 90px;
@@ -52,4 +54,32 @@ li{
 }
 .cont-ej p{
 	font-size: 6mm;
+}
+.cont-flex{
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
+	justify-content: center;
+	grid-gap: 50px;
+	margin-top: 40px;
+}
+.cont-flex div{
+	background: rgb(137, 231, 137);
+	padding: 20px;
+	border-radius: 20px;
+}
+.cont-flex p{
+	font-size: 6mm;
+}
+h3{
+	text-align: center;
+	margin-bottom: 10px;
+}
+footer{
+	bottom: 0;
+	margin-top: 150px;
+	background: blue;
+	padding: 50px;
+	text-align: center;
+	font-size: 7mm;
+	color: #fff;
 }
