@@ -2,26 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background: rgb(240, 255, 198);
+}
 h1{
 	text-align: center;
-	background: red;
+	background: rgb(21, 91, 190);
 	padding: 15px;
 	color: #fff;
-}
-h2{
-	margin: 20px 0;
-	text-align: center;
+	border-radius: 0 0 20px 20px;
 }
 .cont-texto{
-	display: flex;
-	padding: 30px;
-	margin: auto;
-	margin-top: 20px;
+	margin: 60px 0 20px 0;
 	width: 90%;
-	border-radius: 10px;
-	background: green;
+}
+h2{
+	margin: 0 0 10px 30px;
+	font-size: 10mm;
 }
 .cont-texto p{
+	margin-left: 30px;
 	font-size: 6mm;
 }
 .cont-ej{
@@ -29,10 +29,11 @@ h2{
 	margin: auto;
 	margin-top: 20px;
 	padding: 30px;
-	width: 70%;
+	width: 90%;
 	border-radius: 20px;
-	background: green;
+	background: rgb(137, 231, 137);
 }
 li{
-	font-size: 5mm;
+	font-size: 6mm;
+	margin: 10px 20px;
 }
